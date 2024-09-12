@@ -19,7 +19,7 @@ type SongMetadata struct {
 	ShareURL     string
 }
 
-const baseURL = "https://tools.applemediaservices.com/api/apple-media/music/US/search.json"
+const baseURL = "https://itunes.apple.com/search"
 
 func get(url string, result interface{}) error {
 	resp, err := http.Get(url)
