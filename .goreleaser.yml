@@ -2,7 +2,7 @@
 
 release:
   footer: |
-    **Full Changelog**: https://github.com/caarlos0/discord-applemusic-rich-presence/compare/{{ .PreviousTag }}...{{ .Tag }}
+    **Full Changelog**: https://github.com/karanveer7921/discord-applemusic-rich-presence/compare/{{ .PreviousTag }}...{{ .Tag }}
 
     ---
 
@@ -10,11 +10,11 @@ release:
 brews:
   - name: discord-applemusic-rich-presence
     repository:
-      owner: caarlos0
+      owner: karanveer7921
       name: homebrew-tap
     directory: Formula
     description: "Apple Music Rich Presence for Discord"
-    homepage: "https://caarlos0.dev"
+    # homepage: "https://caarlos0.dev"
     service: |
       run [opt_bin/"discord-applemusic-rich-presence"]
       keep_alive true
